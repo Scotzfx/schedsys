@@ -1,0 +1,15 @@
+#sidebar {
+    -fx-background-color: #004d40;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-pref-width: 180;
+    -fx-max-height: Infinity; /* Ensure it stretches */
+    -fx-alignment: top-left;
+}
+/* Center the content and allow it to resize gracefully */
+#contentArea {
+    -fx-background-color: #fff3e0;
+    -fx-padding: 40;
+    -fx-alignment: center;
+    -fx-spacing: 30;
+}
